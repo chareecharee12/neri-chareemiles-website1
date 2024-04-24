@@ -1,0 +1,99 @@
+h1 {
+    background-color: aqua;
+    border: 5px solid blue;
+}
+
+p {
+
+    color: red;
+}
+
+body {
+    border: 6px royalblue;
+    border-style: double;
+    padding: 100px;
+    background-color: black;
+}
+
+label {
+    font-size: 20px;
+    color: blue;
+}
+
+button {
+    padding: 5px;
+    background-color: blue;
+    color: black;
+}
+
+#userLabel {
+    background-color: yellow;
+}
+
+#passLabel {
+    background-color: pink;
+}
+
+.labelStyle {
+    background-color: yellow;
+}
+
+input {
+    color: blue;
+    background-color: blanchedalmond;
+    border: 2px solid blue;
+}
+
+.forgot:link {
+    font-size: 15px;
+    color: blue;
+    font-style: none;
+}
+
+.forgot:hover {
+    font-size: 25px;
+    color: red;
+    background-color: yellow;
+}
+
+.forgot:visited {
+    color: blue;
+}
+
+.forgot:active {
+    color: red;
+}
+
+.buttonStyle:link {
+    color: aqua;
+}
+
+.buttonStyle:hover {
+    font-size: 15px;
+    color: aqua;
+}
+
+.buttonStyle:visited {
+    color: bisque;
+    background-color: aquamarine;
+}
+
+.buttonStyle:active {
+    color: chartreuse;
+}
+
+p {
+    color: red;
+}
+.register:link {
+    color: blue;
+}
+.register:hover {
+    color: red;
+}
+.register:visited {
+    color: mediumseagreen;
+}
+.register:active {
+    color: yellow;
+}
