@@ -1,0 +1,101 @@
+.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: #DFF5FF;
+  background-color: black;
+  width: 100%;
+  padding: 18px;
+  min-height: 20px;
+}
+
+img {
+  height: 600px;
+  width: 1250px;
+  margin-top: 20px;
+}
+.style3{
+  background-color: antiquewhite;
+  margin-top: 70px;
+  font-size: 15px;
+  
+}
+
+.style4{
+  background-color: antiquewhite;
+  margin-top: 70px;
+  font-size: 15px;
+  width: 3Opx;
+  margin-left: -20px;
+  
+}
+
+.style0 {
+  font-family:'Courier New', Courier, monospace;
+  border: 30px;
+  border-style: double;
+  padding: 5px;
+}
+.style {
+  background-color: black;
+  color: white;
+
+}
+.navbar {
+  font-size: 25px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.style1 {
+  text-align: center;
+  font-size: 60px;
+  background-color: antiquewhite;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: red;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+footer {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}

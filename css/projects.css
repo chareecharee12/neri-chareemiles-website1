@@ -1,0 +1,53 @@
+
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #DFF5FF;
+    background-color: black;
+    width: 100%;
+    padding: 18px;
+    min-height: 20px;
+  }
+  
+  .style {
+    background-color: blue;
+    height: 240px;
+    width: 1400px;
+  }
+  .style3 {
+    background-color: blue;
+    height: 250px;
+    width: 1400px;
+  }
+  .icon-bar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+  
+    
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 10px ;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .icon-bar a:hover {
+    background-color:black;
+  }
+  
+  .active {
+   background-color: blue;
+    height: 100px;
+  }
+  .btn {
+    background-color: yellow;
+    color: #000;
+    
+  }

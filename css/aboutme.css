@@ -1,0 +1,44 @@
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #DFF5FF;
+    background-color: black;
+    width: 100%;
+    padding: 18px;
+    min-height: 20px;
+}
+.container {
+    background-color: aqua;
+    margin-top: 70px;
+}
+
+
+.grid-item1 {
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+img {
+    width:250px;
+    height: 400px;
+    
+  
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 295px 295px 295px 295px ;
+background-color: aqua;
+gap: 3px 3px;
+}
+
+.grid-item {
+background-color: rgba(255,255,255,0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
