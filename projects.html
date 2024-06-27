@@ -12,24 +12,40 @@
 </head>
 <body>
 
-     <div class="style" >
+  <!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="gallery/images.png" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS"></button>
+  </div>
+  <div class="w3-container w3-padding-50 w3-center" id="team" >
+    <div class=" icon-bar">
+    
+      <a class="active" href="Simple login/simplelogin.html"><i class="fa fa-globe"><br><button class="btn">Simple login</button></i></a>
+      <a class="active" href="ResponsiveGallery/gallery.html"><i class="fa fa-globe"><br><button class="btn">Responsive gallery</button></i></a>
+      <a class="active" href="calculator/Calculatorr.html"><i class="fa fa-globe"><br><button class="btn">Calculator</button></i></a>
+      <a class="active" href="facebool/facebool.html"><i class="fa fa-globe"><br><button class="btn">Facebool</button></i></a>
+      <a class="active" href="schedule/schedule.html"><i class="fa fa-globe"><br><button class="btn">Schedule</button></i></a>
+    
     </div>
-    <div class="icon-bar"> 
-        <a class="active" href="Simple login/simplelogin.html"><i class="fa fa-globe"><br><button class="btn">Simple login</button></i></a>
-        <a class="active" href="ResponsiveGallery/gallery.html"><i class="fa fa-globe"><br><button class="btn">Responsive gallery</button></i></a>
-        <a class="active" href="calculator/Calculatorr.html"><i class="fa fa-globe"><br><button class="btn">Calculator</button></i></a>
-        <a class="active" href="facebool/facebool.html"><i class="fa fa-globe"><br><button class="btn">Facebool</button></i></a>
-        <a class="active" href="schedule/schedule.html"><i class="fa fa-globe"><br><button class="btn">Schedule</button></i></a>
-       
-      </div>  
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+     
+    </header>
+   
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
       
-      <div class="style3" >
-      </div>
-      
-        
-
-
-
 
     <div class="fixed">
         <div class="w3-bar w3-white w3-card" id="myNavbar">
